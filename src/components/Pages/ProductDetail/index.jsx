@@ -4,7 +4,7 @@ import { useParams } from 'react-router';
 
 const ProductDetail = () => {
 
-const url = "https://dummyjson.com/products/";
+const url = "https://dummyjson.com/product/";
 
 const [product, setProduct] = useState({});
 
@@ -14,11 +14,11 @@ useEffect(() => {
     axios.get(url+id).then(({ data }) => {
       setProduct(data) 
     })
-  }, [id])// id dəyişdikdə məlumatı yeniləyirik
- 
+  }, []);
+
   // Məhsul olmadqda "Loading..." 
   if (product === null) {
-    return <div>Loading...</div>;
+    return <div> <h2>Loading...</h2></div>;
  }
   return (
     <div className='detail'>
