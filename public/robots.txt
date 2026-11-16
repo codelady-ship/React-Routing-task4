@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://codelady-ship.github.io/React-Routing-task4/sitemap.xml
