@@ -1,16 +1,16 @@
 import React from 'react';
-import Navbar from './components/Layout/Navbar'; 
+import Navbar from './components/Layout/Navbar';
 import Footer from './components/Layout/Footer';
 import Webroutes from './components/Webroutes';
 
-const App = () => {
-  return (
-    <> 
-      <Navbar />
-      <Webroutes/> 
-      <Footer />
-    </>
-  );
-};
+const App = () => (
+  <div className="app">
+    <Navbar />
+    <main className="main">
+      <Webroutes />
+    </main>
+    <Footer />
+  </div>
+);
 
 export default App;
