@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Only the root is listed: GitHub Pages serves deep SPA routes through 404.html (HTTP 404), so they cannot be indexed. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://codelady-ship.github.io/React-Routing-task4/</loc></url>
+</urlset>
